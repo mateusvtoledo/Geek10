@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .pre-topo {
   width: auto;
   margin: auto;
@@ -69,7 +63,7 @@
 
 .banner {
   height: 480px;
-  background-image: url(/src/assets/img/banner.png);
+  /* background-image: url(./src/assets/img/banner.png); */
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 20px;
@@ -124,6 +118,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .marcas img {
@@ -819,6 +814,10 @@
   font-family: Montserrat;
 }
 
+.redes-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 .botao-enviar-grid button {
